@@ -1,15 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesko Front End</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <script src="menu.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+            <div class="logo">
+                <h2>BOOK 1<span class="danger"> UNIT 1</span></h2>
+            </div>
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp"> close </span>
+          </div>
+    </div>
+
+                <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">
+                        translate
+                        </span>
+                    <h3>VOCABULARIO</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        quickreply
+                        </span>
+                    <h3>VERBO</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        extension
+                        </span>
+                    <h3>REGRAS</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        question_answer
+                        </span>
+                        
+                    <h3>CONVERSATION</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        fact_check
+                        </span>
+                        
+                    <h3>QUESTÕES</h3>
+                </a>
+               
+                
+               
+                <a href="#">
+                    <span class="material-icons-sharp"> logout </span>
+                    <h3>VOLTAR</h3>
+                </a>
+                </div>
+      </aside>
+
+      <main>
+        <h1>VOCAB</h1>
+
+        <div class="insights">
+          <!-- SALES -->
+          <div class="sales">
+            <span class="material-icons-sharp"> analytics </span>
+            
+            <div class="middle">
+              <div class="left">
+                <h3>text</h3>
+                <h1>text</h1>
+              </div>
+
+              <div class="progress">
+               
+              </div>
+            </div>
+            <small class="text-muted"> text</small>
+          </div>
+          <div class="sales">
+            <span class="material-icons-sharp"> analytics </span>
+            
+            <div class="middle">
+              <div class="left">
+                <h3>text</h3>
+                <h1>text</h1>
+              </div>
+
+              <div class="progress">
+               
+              </div>
+            </div>
+            <small class="text-muted"> text</small>
+          </div>
+        </div>
+      </main>
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp"> menu </span>
+                </button>
+                
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active"> light_mode </span>
+                    <span class="material-icons-sharp"> dark_mode </span>
+                </div>
+                <div class="profile">
+            
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./constants/recent-order-data.js"></script>
+    <script src="./constants/update-data.js"></script>
+    <script src="./constants/sales-analytics-data.js"></script>
+    <script src="./index.js"></script>
+  </body>
 </html>
