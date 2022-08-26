@@ -1,0 +1,390 @@
+{
+  
+  "book":"BOOK 1",
+  "unit":"UNIT 1",
+  "progress":"1/4 BOOK 1",
+  "vocabulary": 
+  [
+    {
+      "title":"vocabulario",
+      "subtitle":"FRANCÊS / PORTUGUÊS",
+      "comments":
+      [
+         {"text":"  á-a"},
+         {"text":"  au-ao"},
+         {"text":"  bien-bem"},
+         {"text":"  bonjour- bom dia/ boa tarde"},
+         {"text":"  ça va-tudo bem/tudo bem?"},
+         {"text":"  Chez-em casa"},
+         {"text":"  cinéma-cinema"},
+         {"text":"  comment-como"},
+         {"text":"  connaissance-conhecimento"},
+         {"text":"  dix-dez"},
+         {"text":"  école-escola"},
+         {"text":"  elle-ela"},
+         {"text":"  echanté-muito prazer"},
+         {"text":"  et-e"},
+         {"text":"  et toi-e tu?e você"},
+         {"text":"  étudiant-estudante"},
+         {"text":"  étudiante-estudante"},
+         {"text":"  il-ele"},
+         {"text":"  ils-eles"},
+         {"text":"  je-eu"},
+         {"text":"  la-ela"},
+         {"text":"  m’-me"},
+         {"text":"  maintenant-agora"},
+         {"text":"  me-me"},
+         {"text":"  merci-obrigado"},
+         {"text":"  moi-me mim/eu"},
+         {"text":"  molière-molière, escritor frances do seculo xvii"},
+         {"text":"  monsieur-senhor"},
+         {"text":"  montmartre-montmartre, bairro pitoresco de paris"},
+         {"text":"  nous-nós"},
+         {"text":"  où-onde/aonde"},
+         {"text":"  oui-sim"},
+         {"text":"  poste-correio"},
+         {"text":"  que?quê?"},
+         {"text":"  Qui?quem?"},
+         {"text":"  Rue-rua"},
+         {"text":"  salut-oi/salve/olá"},
+         {"text":"  très-muito"},
+         {"text":"  trois-três"},
+         {"text":"  tu-tu"},
+         {"text":"  un-um"},
+         {"text":"  une-uma"},
+         {"text":"  votre-vosso"},
+         {"text":"  vous-vós"},
+         {"text":" vous-senhor"}
+      ]
+    }
+  ],
+  "verbs": 
+  [
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Verbos",
+      "subtitle":"FRANCÊS / PORTUGUÊS",
+      "comments":
+      [ 
+        {"text":" aller-ir"},
+        {"text":" etre-ser estar"},
+        {"text":" faire-fazer"},
+        {"text":" habiter-habiter"},
+        {"text" :  "se presenter-apresentar-se"}
+      ]
+    }
+  ],
+  "rules": 
+  [
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"au",
+      "comments":
+      [
+        {
+          "text":"Preposição à  do frances, defini pessoa “a” alguma coisa." 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"chez",
+      "comments":
+      [
+        {
+          "text":"Seria uma preposição para construção de uma pessoa como casa, ou loja. <br>exemplo: chez pierre" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"la",
+      "comments":
+      [
+        {
+          "text":"Pode ser igual al artigo a mas de algo longe. <br>exemplo: la rue la maison" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"l’",
+      "comments":
+      [
+        {
+          "text":"Pode ser igual ao artigo definido LA porem é quando inicia com vogal ou h mudo" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"un",
+      "comments":
+      [
+        {
+          "text":"Defini um artigo singular masculino e acompanha o substantigo exemplo un étudiant;un cinéma" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"une",
+      "comments":
+      [
+        {
+          "text":"mesma regra se aplica ao 'un' porem um artigo para definir algo no feminino une edudiante une rue" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"PRONOES PERSONNELS SUJET",
+      "comments":
+      [
+        {
+          "text":"SINGULAR: <li>je</li> <li> tu</li> <li>il</li> <li>elle</li> <BR><HR>" 
+        },
+        {
+          "text":"PLAURAL: <li>nous</li> <li> vous</li> <li>ils</li> <li>elles</li>" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"étre",
+      "comments":
+      [
+        {
+          "text":"o verbo se relaciona ao português com o verbo ser ou estar e funciona como verbo de ligação quando precede um subestantigo ou adjetivo que qualifica o sujeito da frase mas pode ser um verbo auxiliar nos exemplos a seguir apresenta como verbo de ligação.<br><br> <li> Je suis un étudiant</li> <li>pierre est un étudiant</li> <li>marrie est une étudiant</li> <BR>" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"er indicatif présent",
+      "comments":
+      [
+        {
+          "text":"em francês ha 3 grupos de verbos, o primeiro são os que terminam com a teminação er exemplos como appeler, habiter no exemplo a seguir como ele se relaciona as formas da primeira segunda e terceira pessoa do singular.<br><br> <li> j'habite 3, rue Moliére</li> <li>tu habites 3, rue molière</li> <li>(marie/pierre)habite 3, rue molière</li> <BR>" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"verbe “aller” indicatif present",
+      "comments":
+      [
+        {
+          "text":"o verbo aller seria equivalente ao verbo ir no português e um verbo irregular pois a cada pessoa contem a variação<br><br> <li>je vais à l’école</li> <li>Il/elle va chez marie</li> <li>nous allons au cinéma</li> <li>vous allez chez pierre</li> <li>ils/elles vont chez paul</li>" 
+        }
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Regras",
+      "subtitle":"verbe faire indicativo present",
+      "comments":
+      [
+        {
+          "text":"<li>que fais tu?</li><li>Que fait paul?</li><li>Que font marie et anne?</li>" 
+        }
+      ]
+    }
+  ],
+  "conversation": 
+  [
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Je suis un étudiant"},
+        {"text":"je m’appele jacques."},
+        {"text":"Il est un étudiant."},
+        {"text":"Il s’appelle Pierre"},
+        {"text":"qui est pierre?"},
+        {"text":"Pierre est un étudiant."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Je suis une étudiante."},
+        {"text":"Je m’appelle marie."},
+        {"text":"Elle est une étudiante."},
+        {"text":"Elle s’appelle anne."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Je suis une étudiante."},
+        {"text":"Je m’appele marie"},
+        {"text":"Elle est une étudiante"},
+        {"text":"Elle s’appele anne."},
+        {"text":"Qui est Marie?"},
+        {"text":"Marie est une étudiante."}
+      ]
+    },
+
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Bonjour, jacques."},
+        {"text":"Bonjour paul."},
+        {"text":"Comment vas-tu?"},
+        {"text":"Je vais très bien."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Comment vas-tu, paul?"},
+        {"text":"Je vais très bien."},
+        {"text":"Et comment va Pierre?"},
+        {"text":"Il va bien."},
+        {"text":"Comment va jeanne?"},
+        {"text":"Elle va bien."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"paul, ou vas tu?"},
+        {"text":"je vais a l’ecole."},
+        {"text":"Et toi?"},
+        {"text":"Je vais chez moi."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Où va pieere?"},
+        {"text":"Il va au cinéma."},
+        {"text":"Oú va anne?"},
+        {"text":"Elle va á la poste."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Où allez-vous?"},
+        {"text":"Nous allons á la poste."},
+        {"text":"Où vont jacques et marie?"},
+        {"text":"Ils vont au cinema."}
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Que fais-tu maintenant?"},
+        {"text":"Je vais chez moi."},
+        {"text":"Que fait pierre?, maintenant? "},
+        {"text":"Il va chez paul."},
+        {"text":"Que fait anne, maintenant?"},
+        {"text":"Elle va á la poste."},
+        {"text":"Que font Anne, maintenant?"},
+        {"text":"Elle va á la poste."},
+        {"text":"Que font jacques et marie, maintenat?"},
+        {"text":"Ils vont au cinéma."}
+        
+      ]
+    },
+    {
+      "book":"BOOK 1",
+      "unit":"UNIT 1",
+      "progress":"1/4 BOOK 1",
+      "title":"Conversation",
+      "subtitle":"Conversation",
+      "comments":
+      [
+        {"text":"Que font jeanne et anne, maintenant?"},
+        {"text":"Elles vont chez marie."},
+        {"text":"Que fais-tu maintenat?"},
+        {"text":"Je vais chez moi."},
+        {"text":"Où habites-tu?"},
+        {"text":"J’habite 10, rue moliere."},
+        {"text":"Où habite Marie?"},
+        {"text":"Elle habite 3, rue montmartre."}
+      ]
+    }
+    
+  ]
+}
