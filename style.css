@@ -3,39 +3,17 @@
 
 /* ROOT VARIABLES */
 :root {
-  --color-primary: #7380ec;
-  --color-danger: #ff7782;
-  --color-success: #41f1b6;
-  --color-warning: #ffbb55;
-  --color-white: #fff;
+
+/* mecher depois */
   --color-info-dark: #7d8da1;
-  --color-info-light: #dce1eb;
-  --color-dark: #363949;
-  --color-light: rgba(132, 139, 200, 0.18);
-  --color-primary-variant: #111e88;
-  --color-dark-variant: #677483;
-  --color-background: #f6f6f9;
 
-  --card-border-radius: 2rem;
-  --border-radius-1: 0.4rem;
-  --border-radius-2: 0.8rem;
-  --border-radius-3: 1.2rem;
+  --color-light: rgba(43, 255, 0, 0.18);
 
-  --card-padding: 1.8rem;
-  --padding-1: 1.2rem;
+  --color-dark-variant: #5c7a58;
 
-  --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
 /* DARK THEME VARIABLES */
-.dark-theme-variables {
-  --color-background: #181a1e;
-  --color-white: #202528;
-  --color-dark: #edeffd;
-  --color-dark-variant: #a3bdcc;
-  --color-light: rgba(0, 0, 0, 0.4);
-  --box-shadow: 0 2rem 3rem var(--color-light);
-}
 
 /* STYLES */
 * {
@@ -51,25 +29,13 @@
 html {
   font-size: 14px;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-  font-family: poppins, sans-serif;
-  font-size: 0.88rem;
-  background: var(--color-background);
-  user-select: none;
-  overflow-x: hidden;
-  color: var(--color-dark);
-}
-.container {
+
+.containermenu{
   display: grid;
   width: 96%;
   margin: 0 auto;
   gap: 1.8rem;
-  grid-template-columns: 14rem auto 23rem;
-}
-a {
-  color: var(--color-dark);
+  grid-template-columns: 14rem auto ;
 }
 img {
   display: block;
@@ -91,15 +57,7 @@ h4 {
 h5 {
   font-family: 0.77rem;
 }
-small {
-  font-size: 0.75rem;
-}
-.profile-photo {
-  width: 2.8rem;
-  height: 2.8rem;
-  border-radius: 50%;
-  overflow: hidden;
-}
+
 .text-muted {
   color: var(--color-info-dark);
 }
@@ -110,19 +68,11 @@ b {
   color: var(--color-dark);
 }
 .primary {
-  color: var(--color-primary);
+  color: var(--clr);
 }
 .danger {
-  color: var(--color-danger);
+  color: var(--clr);
 }
-.success {
-  color: var(--color-success);
-}
-.warning {
-  color: var(--color-warning);
-}
-
-/* START ASIDE */
 aside {
   height: 100vh;
 }
@@ -176,21 +126,21 @@ aside .sidebar a:last-child {
 }
 aside .sidebar a.active {
   background: var(--color-light);
-  color: var(--color-primary);
+  color: var(--clr);
   margin-left: 0;
 }
 aside .sidebar a.active:before {
   content: "";
   width: 6px;
   height: 100%;
-  background: var(--color-primary);
+  background: var(--clr);
 }
 aside .sidebar a.active span {
-  color: var(--color-primary);
+  color: var(--clr);
   margin-left: calc(1rem - 6px);
 }
 aside .sidebar a:hover {
-  color: var(--color-primary);
+  color: var(--clr);
 }
 aside .sidebar a:hover span {
   margin-left: 1rem;
@@ -206,147 +156,120 @@ aside .sidebar .message-count {
 /* END ASIDE */
 
 /* START MAIN */
-main {
-  margin-top: 1.4rem;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+body{
+    background-color: rgb(234, 246, 255);
+    font-family: poppins, sans-serif;
+}
+section{
+    margin-top: 2%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    
+}
+section .course{
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    max-width: 98%;
+    width: 87%;
+    margin-bottom: 10px;
+    position: relative;
+    /* border: 3px solid black; */
+
+}
+section .course h6{
+    opacity: section .7;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0section .658);
+}
+section .course h2{
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+section .preview{
+    background: var(--clr);
+    color: #fff;
+    padding: 30px;
+    width: 250px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+section .preview a{
+    color: #fff;
+    font-size: 12px;
+    opacity: section .6;
+    margin-top: 30px;
+    text-decoration: none;
+}
+section .info{
+    padding: 30px;
+    position: relative;
+    width: 100%;
+}
+section .progress-wrapper{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+    width: 150px;
+}
+section .progress{
+    border-radius: 3px;
+    height: 5px;
+    width: 100%;
+}
+section .progress::after{
+    content: '';
+    border-radius: 3px;
+    background: var(--clr);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+}
+section .progress-text{
+    font-size: 10px;
+    opacity: section .6;
+    letter-spacing: 1px;
+}
+section .info p{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+section .btn{
+    
+    background: #fff;
+    border: 1PX dashed var(--clr);
+   
+    box-shadow: 0px 5px 10px
+    rgba(0, 0, 0, section .2);
+    color: var(--clr);
+    
+    font-size: 16px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 30px;
+    right:30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all section .4s ease-in-out;
+    font-weight: bold;
+    border-radius: 20px;
+}
+section .btn:hover
+{
+    background-color: var(--clr);
+    color: #fff;
+    
+    transform: scale(1section .05);
 }
 
-/* START DATE INPUT */
-main .date {
-  display: inline-block;
-  background: var(--color-light);
-  border-radius: var(--border-radius-1);
-  margin-top: 1rem;
-  padding: 0.5rem 1.6rem;
-}
-main .date input[type="date"] {
-  background: transparent;
-  color: var(--color-dark);
-}
-/* END DATE INPUT */
-
-/* START INSIGHTS */
-main .insights {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 1.6rem;
-}
-main .insights > div {
-  background: var(--color-white);
-  padding: var(--card-padding);
-  border-radius: var(--card-border-radius);
-  margin-top: 1rem;
-  box-shadow: var(--box-shadow);
-  transition: all 300ms ease;
-}
-main .insights > div:hover {
-  cursor: pointer;
-  box-shadow: none;
-}
-main .insights > div span {
-  background: var(--color-primary);
-  padding: 0.5rem;
-  border-radius: 50%;
-  color: var(--color-white);
-  font-size: 2rem;
-}
-main .insights > div.expenses span {
-  background: var(--color-danger);
-}
-main .insights > div.income span {
-  background: var(--color-success);
-}
-main .insights > div .middle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-main .insights h3 {
-  margin: 1rem 0 0.6rem;
-  font-size: 1rem;
-}
-main .insights .progress {
-  position: relative;
-  width: 92px;
-  height: 92px;
-  border-radius: 50%;
-}
-main .insights svg {
-  width: 7rem;
-  height: 7rem;
-}
-main .insights svg circle {
-  fill: none;
-  stroke: var(--color-primary);
-  stroke-width: 14;
-  stroke-linecap: round;
-  transform: translate(5px, 5px);
-  stroke-dasharray: 110;
-  stroke-dashoffset: 92;
-}
-main .insights .sales svg circle {
-  stroke-dashoffset: -30;
-  stroke-dasharray: 200;
-}
-main .insights .expenses svg circle {
-  stroke-dashoffset: 20;
-  stroke-dasharray: 80;
-}
-main .insights .income svg circle {
-  stroke-dashoffset: 35;
-}
-main .insights .progress .number {
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-main .insights small {
-  margin-top: 1.6rem;
-  display: block;
-}
-/* END INSIGHTS */
-
-/* START RECENT ORDERS */
-main .recent-orders {
-  margin-top: 2rem;
-}
-main .recent-orders h2 {
-  margin-bottom: 0.8rem;
-}
-main .recent-orders table {
-  background: var(--color-white);
-  width: 100%;
-  border-radius: var(--card-border-radius);
-  padding: var(--card-padding);
-  text-align: center;
-  box-shadow: var(--box-shadow);
-  transition: all 300ms ease;
-}
-main .recent-orders table:hover {
-  cursor: pointer;
-  box-shadow: none;
-}
-main table tbody td {
-  height: 2.8rem;
-  border-bottom: 1px solid var(--color-light);
-  color: var(--color-dark-variant);
-}
-main table tbody tr:last-child td {
-  border: none;
-}
-main .recent-orders a {
-  text-align: center;
-  display: block;
-  margin: 1rem auto;
-  color: var(--color-primary);
-}
-/* END RECENT ORDERS */
-
-/* START RIGHT SECTION */
 .right {
   margin-top: 1.4rem;
 }
@@ -616,4 +539,3 @@ main .recent-orders a {
     font-size: 2rem;
   }
 }
-/* END MEDIA QUERIES */
